@@ -1,24 +1,26 @@
-# ☁️ AWS Data Engineering & ML Reference Architecture
+# ☁️ Cloud Data Engineering & ML Guide (AWS & GCP)
 
-An interactive, visual guide for AWS Data Engineering, Machine Learning, and Generative AI workflows. Built for aspiring and professional AWS Cloud Engineers to understand the modern data ecosystem on AWS.
+A comprehensive, interactive, dual-cloud reference architecture guide for Data Engineering, Machine Learning, and Generative AI workflows. Built for aspiring and professional Cloud Engineers to understand, navigate, and compare the modern data ecosystems on **Amazon Web Services (AWS)** and **Google Cloud Platform (GCP)**.
 
-![AWS Data Engineering](https://img.shields.io/badge/AWS-Data_Engineering-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## ✨ Features
 
-*   **Interactive Architecture Diagram**: A fully interactive, pan-and-zoomable node-based diagram built with React Flow (`@xyflow/react`).
-*   **Comprehensive Service Mapping**: Visually categorizes and explains the usage of critical AWS services across the entire data lifecycle:
-    *   🌐 **Networking & VPC**: VPC, Direct Connect, Route 53, API Gateway, CloudFront.
-    *   ⚙️ **Infrastructure as Code (IaC)**: CloudFormation, CDK, SAM, Step Functions.
-    *   📥 **Ingestion**: Kinesis, MSK, DMS, DataSync.
-    *   🗄️ **Storage (Data Lake)**: S3, Lake Formation, Glue Data Catalog.
-    *   🔄 **Processing & ETL**: Glue, EMR, Lambda.
-    *   📊 **Analytics**: Redshift, Athena, OpenSearch.
-    *   🧠 **Machine Learning**: SageMaker, Deep Learning AMIs, Trainium, Rekognition, Textract.
-    *   ✨ **Generative AI**: Amazon Bedrock, Amazon Q Developer, QuickSight Generative-BI.
-    *   🔒 **Security & Governance**: IAM, KMS, Macie, CloudWatch.
+*   **Dual-Cloud Interactive Architectures**: Side-by-side, fully interactive, pan-and-zoomable node-based diagrams for both AWS and GCP, built with React Flow (`@xyflow/react`).
+*   **Comprehensive Service Mapping & Comparison**: Visually categorizes and explains the usage of critical cloud services across the entire data lifecycle, allowing for easy mental mapping between cloud providers:
+    *   🌐 **Networking & Content Delivery**: Amazon VPC & Route 53 vs. Google Cloud VPC & Cloud DNS.
+    *   ⚙️ **Infrastructure as Code (IaC)**: AWS CloudFormation & CDK vs. Terraform (GCP Provider) & Deployment Manager.
+    *   📥 **Ingestion**: Amazon Kinesis & MSK vs. Google Cloud Pub/Sub & Datastream.
+    *   🗄️ **Storage (Data Lake)**: Amazon S3 & Lake Formation vs. Cloud Storage (GCS) & Dataplex.
+    *   🔄 **Processing & ETL**: AWS Glue & EMR vs. Google Cloud Dataflow & Dataproc.
+    *   📊 **Analytics**: Amazon Redshift & Athena vs. Google BigQuery & Looker.
+    *   🧠 **Machine Learning**: Amazon SageMaker & Deep Learning AMIs vs. Vertex AI & Cloud TPUs.
+    *   ✨ **Generative AI**: Amazon Bedrock & Q Developer vs. Gemini API & Vertex AI Studio.
+    *   🔒 **Security & Governance**: AWS IAM & Macie vs. Cloud IAM & Sensitive Data Protection (DLP).
+*   **Premium UI/UX Design**: Features a highly polished, modern interface with dynamic gradient backgrounds, layered drop shadows, and responsive hover animations that bring the architectures to life.
 
 ## 🛠️ Tech Stack
 
@@ -37,8 +39,8 @@ An interactive, visual guide for AWS Data Engineering, Machine Learning, and Gen
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/aws-data-eng-ml-guide.git
-    cd aws-data-eng-ml-guide
+    git clone https://github.com/yourusername/cloud-data-eng-ml-guide.git
+    cd cloud-data-eng-ml-guide
     ```
 
 2.  **Install dependencies:**
@@ -56,11 +58,12 @@ An interactive, visual guide for AWS Data Engineering, Machine Learning, and Gen
 
 ## 💡 Usage
 
-*   **Explore the Pipeline**: Click and drag to pan around the interactive React Flow canvas. Scroll to zoom in and out. Review the specific AWS services categorized by their role in a modern data architecture.
+*   **Explore the Pipelines**: Scroll through the vertically stacked architectural views. You can click and drag to pan around each interactive canvas, and scroll to zoom in and out.
+*   **Compare Ecosystems**: Review the specific services categorized by their role in a modern data architecture. The identical pipeline layouts make it easy to translate concepts (like "What is the GCP equivalent of AWS Glue?").
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/aws-data-eng-ml-guide/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/cloud-data-eng-ml-guide/issues).
 
 ## 📝 License
 
